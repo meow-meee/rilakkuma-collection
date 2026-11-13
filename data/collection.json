@@ -4,7 +4,7 @@
     "name": "鹿雞",
     "location": "宮島",
     "description": "穿著小鹿造型服裝的小雞娃娃。",
-    "image": "images/placeholder.svg",
+    "image": "images/deer-kiiroitori.jpg",
     "category": "kiiroitori",
     "imageType": "photo"
   },
@@ -13,7 +13,7 @@
     "name": "香菇雞",
     "location": "7-11",
     "description": "戴著香菇帽的小雞。",
-    "image": "images/placeholder.svg",
+    "image": "images/mushroom-kiiroitori.jpg",
     "category": "kiiroitori",
     "imageType": "photo"
   },
@@ -22,7 +22,7 @@
     "name": "相雞",
     "location": "7-11",
     "description": "戴著藍色帽子、帶著相機造型配件的小雞。",
-    "image": "images/placeholder.svg",
+    "image": "images/camera-kiiroitori.jpg",
     "category": "kiiroitori",
     "imageType": "photo"
   },
@@ -31,7 +31,7 @@
     "name": "甜甜圈拉拉熊",
     "location": "7-11",
     "description": "套著甜甜圈造型的小隻拉拉熊。開國元老",
-    "image": "images/placeholder.svg",
+    "image": "images/donut-rilakkuma.jpg",
     "category": "rilakkuma",
     "imageType": "photo"
   },
@@ -40,7 +40,7 @@
     "name": "和服拉拉熊",
     "location": "道後",
     "description": "穿著和服造型服裝的拉拉熊。",
-    "image": "images/placeholder.svg",
+    "image": "images/kimono-rilakkuma.jpg",
     "category": "rilakkuma",
     "imageType": "photo"
   },
@@ -49,7 +49,7 @@
     "name": "老唐",
     "location": "迪士尼",
     "description": "一隻來自迪士尼的鴨子。",
-    "image": "images/placeholder.svg",
+    "image": "images/other-companion.jpg",
     "category": "other",
     "imageType": "photo"
   }
