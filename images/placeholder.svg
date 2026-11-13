@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="t d">
+<title id="t">收藏照片待補</title><desc id="d">奶茶色底上的相片框與愛心插畫，表示尚未提供照片。</desc>
+<rect width="600" height="600" fill="#F8EEDB"/>
+<circle cx="300" cy="275" r="200" fill="#FFF8E7"/><circle cx="112" cy="145" r="8" fill="#F2D5B0"/><circle cx="482" cy="428" r="12" fill="#F9DF79"/>
+<g transform="rotate(-7 300 282)"><rect x="155" y="136" width="290" height="285" rx="25" fill="#F2D5B0"/><rect x="176" y="157" width="248" height="241" rx="15" fill="#FFFEFA"/><circle cx="352" cy="218" r="27" fill="#F9DF79"/><path d="M191 350l87-95 66 65 36-42 29 72" fill="none" stroke="#E9DCC8" stroke-width="21" stroke-linecap="round" stroke-linejoin="round"/><path d="M300 273c-32-33-74 10 0 64 74-54 32-97 0-64Z" fill="#E8B8A5"/></g>
+<text x="300" y="489" fill="#77563F" font-family="sans-serif" font-size="25" text-anchor="middle" font-weight="bold">PHOTO COMING SOON</text><text x="300" y="522" fill="#8D7561" font-family="sans-serif" font-size="20" text-anchor="middle">照片待補 ♡</text>
+</svg>

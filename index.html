@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#FFF8E7">
+  <meta name="description" content="一個溫暖的小角落，收藏拉拉熊、小雞和每段相遇的回憶。">
+  <title>拉拉熊收藏圖鑑｜我的小小收藏室</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#collection">跳至收藏圖鑑</a>
+  <div class="site-shell">
+    <header class="site-header">
+      <a href="./" class="brand" aria-label="拉拉熊收藏圖鑑，回到首頁"><span class="brand-icon" aria-hidden="true">✿</span><span>my little collection<span class="brand-dot">.</span></span></a>
+      <span class="header-note">一隻一隻，慢慢收集 ♡</span>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <span class="eyebrow"><span class="tiny-star" aria-hidden="true">✦</span> WELCOME TO MY COLLECTION</span>
+          <h1 id="page-title">拉拉熊<span>收藏圖鑑</span><span class="title-sparkle" aria-hidden="true">✳</span></h1>
+          <p class="hero-description">把喜歡的小小身影，和每次相遇的故事，<br class="desktop-break">都好好收藏在這裡。</p>
+          <a class="hero-cta" href="#collection">來逛逛我的收藏 <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <span class="art-sparkle sparkle-a">✳</span><span class="art-sparkle sparkle-b">✦</span><span class="art-sparkle sparkle-c">✦</span>
+          <div class="art-halo"></div>
+          <div class="art-shelf"></div>
+          <div class="art-frame art-frame-left"><span>♡</span></div>
+          <div class="art-frame art-frame-right"><span>✿</span></div>
+          <div class="art-note">my happy place <span>♡</span></div>
+        </div>
+      </section>
+
+      <section id="collection" class="collection-section" aria-labelledby="collection-heading">
+        <div class="section-top">
+          <div><p class="section-kicker">THE COLLECTION</p><h2 id="collection-heading">我的收藏小圖鑑 <span aria-hidden="true">✿</span></h2><p class="section-description">每一個小可愛，都有自己的故事。</p></div>
+          <div class="collection-total" aria-live="polite"><span id="total-count">—</span><span>個小夥伴<br>已經入住</span></div>
+        </div>
+        <div class="toolbar" role="search" aria-label="搜尋及篩選收藏">
+          <label class="search-field"><span class="search-icon" aria-hidden="true">⌕</span><span class="sr-only">搜尋收藏名稱</span><input id="search-input" type="search" placeholder="搜尋小夥伴的名字..." autocomplete="off"></label>
+          <div class="filter-group" aria-label="收藏分類">
+            <button class="filter-button is-active" type="button" data-category="all" aria-pressed="true">全部收藏</button>
+            <button class="filter-button" type="button" data-category="rilakkuma" aria-pressed="false">拉拉熊</button>
+            <button class="filter-button" type="button" data-category="kiiroitori" aria-pressed="false">小雞</button>
+            <button class="filter-button" type="button" data-category="other" aria-pressed="false">其他夥伴</button>
+          </div>
+        </div>
+        <div class="results-line"><p id="result-count" aria-live="polite">正在整理收藏中…</p></div>
+        <div id="collection-grid" class="collection-grid" aria-live="off" aria-busy="true"></div>
+        <div id="status-message" class="status-panel" role="status" hidden></div>
+      </section>
+    </main>
+    <footer class="site-footer"><span>✿ <strong>my little collection</strong></span><span>用一點點喜歡，收藏很多很多快樂。<span aria-hidden="true">♡</span></span></footer>
+  </div>
+
+  <dialog id="detail-dialog" class="detail-dialog" aria-labelledby="detail-title" aria-describedby="detail-description">
+    <div class="dialog-inner">
+      <button id="dialog-close" class="dialog-close" type="button" aria-label="關閉收藏詳情">×</button>
+      <div class="detail-image-wrap"><img id="detail-image" src="./images/placeholder.svg" alt="" loading="eager"><span id="detail-image-type" class="image-type-badge" hidden></span></div>
+      <div class="detail-content"><p class="detail-eyebrow">COLLECTION DIARY <span aria-hidden="true">✦</span></p><span id="detail-category" class="detail-category"></span><h2 id="detail-title"></h2><div class="detail-info"><span class="info-label">收藏地點</span><p id="detail-location"></p></div><div class="detail-info"><span class="info-label">關於這個小夥伴</span><p id="detail-description"></p></div><p class="detail-signoff">每一次相遇，都值得記得 ♡</p></div>
+    </div>
+  </dialog>
+</body>
+</html>
