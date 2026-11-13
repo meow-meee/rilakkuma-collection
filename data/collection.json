@@ -3,7 +3,7 @@
     "id": "deer-kiiroitori",
     "name": "鹿雞",
     "location": "宮島",
-    "description": "穿著小鹿造型服裝的小雞娃娃。示範資料，可依實際收藏補充故事。",
+    "description": "穿著小鹿造型服裝的小雞娃娃。",
     "image": "images/placeholder.svg",
     "category": "kiiroitori",
     "imageType": "placeholder"
@@ -11,8 +11,8 @@
   {
     "id": "mushroom-kiiroitori",
     "name": "香菇雞",
-    "location": "未記錄",
-    "description": "戴著香菇帽的小雞。詳細取得地點與收藏回憶可以之後再補上。",
+    "location": "7-11",
+    "description": "戴著香菇帽的小雞。",
     "image": "images/placeholder.svg",
     "category": "kiiroitori",
     "imageType": "placeholder"
@@ -20,7 +20,7 @@
   {
     "id": "camera-kiiroitori",
     "name": "相雞",
-    "location": "未記錄",
+    "location": "7-11",
     "description": "戴著藍色帽子、帶著相機造型配件的小雞。",
     "image": "images/placeholder.svg",
     "category": "kiiroitori",
@@ -29,8 +29,8 @@
   {
     "id": "donut-rilakkuma",
     "name": "甜甜圈拉拉熊",
-    "location": "未記錄",
-    "description": "套著甜甜圈造型的小隻拉拉熊。",
+    "location": "7-11",
+    "description": "套著甜甜圈造型的小隻拉拉熊。開國元老",
     "image": "images/placeholder.svg",
     "category": "rilakkuma",
     "imageType": "placeholder"
@@ -38,7 +38,7 @@
   {
     "id": "kimono-rilakkuma",
     "name": "和服拉拉熊",
-    "location": "未記錄",
+    "location": "道後",
     "description": "穿著和服造型服裝的拉拉熊。",
     "image": "images/placeholder.svg",
     "category": "rilakkuma",
@@ -46,9 +46,9 @@
   },
   {
     "id": "other-companion",
-    "name": "其他小夥伴（示範）",
-    "location": "未記錄",
-    "description": "這是一筆展示「其他夥伴」分類的示範資料，可以替換成自己的收藏。",
+    "name": "老唐",
+    "location": "迪士尼",
+    "description": "一隻來自迪士尼的鴨子。",
     "image": "images/placeholder.svg",
     "category": "other",
     "imageType": "placeholder"
