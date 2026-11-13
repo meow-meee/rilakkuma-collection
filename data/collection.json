@@ -6,7 +6,7 @@
     "description": "穿著小鹿造型服裝的小雞娃娃。",
     "image": "images/placeholder.svg",
     "category": "kiiroitori",
-    "imageType": "placeholder"
+    "imageType": "photo"
   },
   {
     "id": "mushroom-kiiroitori",
@@ -15,7 +15,7 @@
     "description": "戴著香菇帽的小雞。",
     "image": "images/placeholder.svg",
     "category": "kiiroitori",
-    "imageType": "placeholder"
+    "imageType": "photo"
   },
   {
     "id": "camera-kiiroitori",
@@ -24,7 +24,7 @@
     "description": "戴著藍色帽子、帶著相機造型配件的小雞。",
     "image": "images/placeholder.svg",
     "category": "kiiroitori",
-    "imageType": "placeholder"
+    "imageType": "photo"
   },
   {
     "id": "donut-rilakkuma",
@@ -33,7 +33,7 @@
     "description": "套著甜甜圈造型的小隻拉拉熊。開國元老",
     "image": "images/placeholder.svg",
     "category": "rilakkuma",
-    "imageType": "placeholder"
+    "imageType": "photo"
   },
   {
     "id": "kimono-rilakkuma",
@@ -42,7 +42,7 @@
     "description": "穿著和服造型服裝的拉拉熊。",
     "image": "images/placeholder.svg",
     "category": "rilakkuma",
-    "imageType": "placeholder"
+    "imageType": "photo"
   },
   {
     "id": "other-companion",
@@ -51,6 +51,6 @@
     "description": "一隻來自迪士尼的鴨子。",
     "image": "images/placeholder.svg",
     "category": "other",
-    "imageType": "placeholder"
+    "imageType": "photo"
   }
 ]
